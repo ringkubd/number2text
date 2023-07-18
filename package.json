@@ -1,5 +1,5 @@
 {
-  "name": "number2text",
+  "name": "number2textjs",
   "version": "1.0.0",
   "description": "Any number converted into text",
   "main": "index.js",
