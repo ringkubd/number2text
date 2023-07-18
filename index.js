@@ -100,6 +100,7 @@ function with_scale(str, i) {
 }
 
 function trim_zeros(val) {
+    return val
     return val.replace(/^0*/, "");
 }
 

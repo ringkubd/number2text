@@ -1,6 +1,6 @@
 {
   "name": "number2textjs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Any number converted into text",
   "main": "index.js",
   "scripts": {
