@@ -111,3 +111,4 @@ function is_lt20(val) {
 export {
     convert
 }
+module.exports = numberToText;
