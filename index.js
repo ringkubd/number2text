@@ -3,7 +3,7 @@ let lt20 = ["", "one", "two", "three", "four", "five", "six", "seven", "eight", 
     scales = ["", "thousand", "million", "billion", "trillion", "quadrillion", "quintillion", "sextillion", "septillion", "octillion", "nonillion", "decillion" ],
     max = scales.length * 3;
 
-function convert(val) {
+function numberToText(val) {
     let len;
 
     // special cases
@@ -109,6 +109,6 @@ function is_lt20(val) {
 }
 
 export {
-    convert
+    numberToText
 }
 module.exports = numberToText;
