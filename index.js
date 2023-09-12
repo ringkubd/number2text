@@ -7,7 +7,7 @@ function numberToText(val) {
     let len;
 
     // special cases
-    if (val[0] === "-") { return "negative " + convert(val.slice(1)); }
+    if (val[0] === "-") { return "negative " + numberToText(val.slice(1)); }
     if (val === "0") { return "zero"; }
 
     val = trim_zeros(val);
@@ -92,7 +92,7 @@ function with_scale(str, i) {
         if (scale !== undefined) {
             return str.trim() + " " + scale;
         } else {
-            return convert(str.trim());
+            return numberToText(str.trim());
         }
     } else {
         return "";
