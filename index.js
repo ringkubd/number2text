@@ -108,7 +108,6 @@ function is_lt20(val) {
     return parseInt(val, 10) < 20;
 }
 
-export {
-    numberToText
-}
-module.exports = numberToText;
+module.exports = function (num) {
+  return numberToText(num);
+};
